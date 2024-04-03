@@ -1,5 +1,5 @@
 export default class ServerConfig {
 
-    static baseServerUrl =  'http://localhost:5000/';
+    static baseServerUrl =  'https://frame-project-backend.vercel.app/';
     static imagePath = 'api/image/'
 }
