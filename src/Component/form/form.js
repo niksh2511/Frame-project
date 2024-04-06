@@ -74,7 +74,7 @@ export default function Form() {
       .catch((err) => {
         const { response } = err;
 
-        if (response.status === 400) {
+        if (response?.status === 400) {
           setSnackBarConfig((prev) => {
             return {
               ...prev,
