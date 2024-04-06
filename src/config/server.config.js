@@ -1,5 +1,5 @@
 export default class ServerConfig {
 
-    static baseServerUrl =  'https://node-api-kappa-nine.vercel.app/';
+    static baseServerUrl =  'https://frame-vugf.onrender.com/';
     static imagePath = 'api/image/'
 }
